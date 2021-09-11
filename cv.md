@@ -55,3 +55,14 @@ function formatDuration (seconds) {
   return date.join("");
 }
 ```
+
+### Education and courses:
+- Saratov State University, Faculty of Computer Science and Information Technologies, Department of System Analysis and Automatic Control, bachelor degree (2018 – 2022)
+- JavaScript https://learn.javascript.ru/
+
+### Languages
+- Russian
+- English
+
+### English level
+-  [EPAM English test](https://examinator.epam.com/Main/PersonalAssignments): **A2**
