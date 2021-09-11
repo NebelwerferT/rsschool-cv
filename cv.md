@@ -1,5 +1,5 @@
 # Gleb Shipov
-----------
+-------------
 ### Contacts:
 - **Discord:** nebelwerfer
 - **Tel:** +79873757651
@@ -60,9 +60,12 @@ function formatDuration (seconds) {
 - Saratov State University, Faculty of Computer Science and Information Technologies, Department of System Analysis and Automatic Control, bachelor degree (2018 – 2022)
 - JavaScript https://learn.javascript.ru/
 
-### Languages
+### Work expirience:
+No commercial experience yet
+
+### Languages:
 - Russian
 - English
 
-### English level
+### English level:
 -  [EPAM English test](https://examinator.epam.com/Main/PersonalAssignments): **A2**
