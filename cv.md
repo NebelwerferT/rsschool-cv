@@ -8,6 +8,13 @@
 ### About myself:
 I want to learn FrontEnd Development
 
+### Skills:
+- HTML
+- CSS
+- JS
+- Relational DB
+- Git
+
 ### Code example:
 ```javascript
 function formatDuration (seconds) {
