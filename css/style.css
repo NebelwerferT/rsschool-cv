@@ -1,12 +1,12 @@
 :root {
     --first-color: rgb(219, 219, 219);
-    --second-color: rgba(118, 82, 216, 0.479);
-    --third-color: rgba(118, 82, 216, 0.185);
-    --fourth-color: rgba(118, 82, 216, 0.664);
-    --fifth-color: rgba(118, 82, 216, 0.37);
-    --border-color: rgba(118, 82, 216, 0.384);
+    --second-color: rgb(189, 172, 236);
+    --third-color: rgb(176, 155, 233);
+    --fourth-color: rgb(156, 129, 227);
+    --fifth-color: rgb(230, 223, 248);
+    --border-color: rgb(202, 189, 240);
     --heading-color: rgb(67, 47, 121);
-    --font-color: rgba(67, 47, 121, 0.781);
+    --font-color: rgb(108, 93, 150);
     font-family: "Poppins", sans-serif;
     color: var(--font-color);
 }
@@ -95,7 +95,7 @@ main h3 {
     align-items: center;
     padding: 15px 20px 15px 10px;
     margin: 15px 0;
-    background-color: var(--third-color);
+    background-color: var(--fifth-color);
     font-weight: bold;
 }
 
@@ -118,12 +118,15 @@ main h3 {
 }
 
 .skills-point-list__item_light {
-    background-color: var(--fifth-color);
+    background-color: var(--second-color);
 }
 
 .code-pre {
-    background-color: var(--third-color);
-    margin: 0 10px;
+    background-color: var(--fifth-color);
+    position: relative;
+    margin-right: -205px;
+    margin-left: 105px;
+    padding: 0 50px;
 }
 
 .aside-content {
@@ -144,6 +147,7 @@ main h3 {
 }
 
 .education-list__item a {
+    color:var(--font-color);
     text-decoration: none;
     transition: all .5s;
 }
