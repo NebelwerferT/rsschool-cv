@@ -6,27 +6,52 @@
     <title>Gleb Shipov CV</title>
     <link rel="stylesheet" href="css/style.css">
     <script defer src="https://kit.fontawesome.com/ae0f5ff849.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/mono-blue.min.css">
+    <script src="js/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </head>
 
 <body>
     <div class="container">
         <header>
-            <div class="my-name">
-                <h1>Gleb Shipov</h1>
-                <h2>Front-End Developer</h2>
+            <div class="header-content">
+                <div class="my-name">
+                    <h1>Gleb Shipov</h1>
+                    <h2>Front-End Developer</h2>
+                </div>
+                <img class="my-photo" height="200" src="img/photo.jpg" alt="my photo">
             </div>
-            <img class="my-photo" height="200" src="img/photo.jpg" alt="my photo">
+            <nav class="header-nav">
+                <ul class="header-nav__list">
+                    <li class="header-nav__item"><a href="#about-me" class="header-nav__link"><span>About me</span></a>
+                    </li>
+                    <li class="header-nav__item"><a href="#skills" class="header-nav__link"><span>Skills</span></a></li>
+                    <li class="header-nav__item"><a href="#education"
+                            class="header-nav__link"><span>Education</span></a></li>
+                    <li class="header-nav__item"><a href="#languages"
+                            class="header-nav__link"><span>Languages</span></a></li>
+                    <li class="header-nav__item"><a href="#code-example" class="header-nav__link"><span>Code
+                                example</span></a></li>
+                    <li class="header-nav__item"><a href="#portfolio"
+                            class="header-nav__link"><span>Portfolio</span></a></li>
+                    <li class="header-nav__item"><a href="#video-cv" class="header-nav__link"><span>Video CV</span></a>
+                    </li>
+                    <li class="header-nav__item"><a href="#contacts" class="header-nav__link"><span>Contacts</span></a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="burger-button-div"><i class="fas fa-bars burger-menu"></i></div>
         </header>
         <main>
             <div class="main-content">
-                <section>
+                <section id="about-me">
                     <h3>About me</h3>
                     <p>
                         I'm a beginner front-end developer. Also, I am a student of the Faculty of Computer Science and
                         Information Technology (CSIT) of the Saratov State University (SSU) named after Chernyshevsky.
                         My specialty is systems analysis and automatic control (SAAC).</p>
                 </section>
-                <section>
+                <section id="skills">
                     <h3>Skills</h3>
                     <ul class="skills-list">
                         <li class="skills-list__item">
@@ -86,7 +111,7 @@
                         </li>
                     </ul>
                 </section>
-                <section>
+                <section id="code-example">
                     <h3>Code example</h3>
                     <pre class="code-pre">
                         <code>
@@ -129,7 +154,14 @@ function formatDuration (seconds) {
   }</code>
                     </pre>
                 </section>
-                <section>
+                <section id="portfolio">
+                    <h3>Portfolio</h3>
+                    <ul class="portfolio__list">
+                        <li class="portfolio__item"></li>
+                        <li class="portfolio__item"></li>
+                    </ul>
+                </section>
+                <section id="video-cv">
                     <h3>Video CV</h3>
                     <video controls>
                         <source src="" type="video/mp4">
@@ -137,7 +169,7 @@ function formatDuration (seconds) {
                 </section>
             </div>
             <aside class="aside-content">
-                <section>
+                <section id="contacts">
                     <h3>Contacts</h3>
                     <ul class="contacts-list">
                         <li class="contacts-list__item"><i class="fab fa-discord"></i>nebelwerfer</li>
@@ -145,7 +177,7 @@ function formatDuration (seconds) {
                         <li class="contacts-list__item"><i class="fas fa-envelope"></i>NebelwerferT9@gmail.com</li>
                     </ul>
                 </section>
-                <section>
+                <section id="education">
                     <h3>Education</h3>
                     <ul class="education-list">
                         <li class="education-list__item"><a
@@ -166,7 +198,7 @@ function formatDuration (seconds) {
                         </li>
                     </ul>
                 </section>
-                <section>
+                <section id="languages">
                     <h3>Languages</h3>
                     <ul class="languages-list">
                         <li class="languages-list__item">
