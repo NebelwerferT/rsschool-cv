@@ -231,6 +231,46 @@ main h3 {
     transform: translateX(10px);
 }
 
+.portfolio__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio__item {
+    height: 250px;
+    max-width: 300px;
+    overflow: hidden;
+}
+
+.portfolio__item img {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+figcaption {
+    opacity: 0;
+}
+
+figcaption:hover {
+    opacity: 1;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    transform: translateY(-100%);
+    height: 100%;
+    width: 100%;
+    background-color: rgba(230, 223, 248, 0.822);
+}
+
 footer {
     background-color: var(--second-color);
     height: 80px;
@@ -263,7 +303,12 @@ footer {
         flex-direction: column;
     }
 
+    .portfolio__list {
+        flex-wrap: wrap;
+    }
+
     .code-pre {
+        background-color: transparent;
         position: static;
         margin: 0;
         padding: 0 10px;
@@ -281,10 +326,28 @@ footer {
     }
 
     .header-nav__list {
-        flex-direction: column;
+        height: 160px;
+        overflow: visible;
         position: absolute;
-        background-color: yellow;
+        flex-direction: column;
+        width: max-content;
         display: none;
+        background-color: var(--third-color);
+    }
+
+    .header-nav__item {
+        width: 100%;
+        height: 20px;
+    }
+
+    .header-nav__item:nth-child(1) {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .header-nav__item:nth-last-child(1) {
+        width: 100%;
+        margin-right: 0;
     }
 
     .burger-button-div{
@@ -292,6 +355,10 @@ footer {
         font-size: 50px;
         margin-top: -52px;
         text-align: center;
+    }
+
+    .burger-button-div .close-burger-menu-button {
+        display: none;
     }
 
     .header-nav__item, .header-nav__link span {

@@ -40,7 +40,10 @@
                     </li>
                 </ul>
             </nav>
-            <div class="burger-button-div"><i class="fas fa-bars burger-menu"></i></div>
+            <div class="burger-button-div">
+                <i class="fas fa-bars view-burger-menu-button"></i>
+                <i class="fas fa-times close-burger-menu-button"></i>
+            </div>
         </header>
         <main>
             <div class="main-content">
@@ -114,8 +117,7 @@
                 <section id="code-example">
                     <h3>Code example</h3>
                     <pre class="code-pre">
-                        <code>
-function formatDuration (seconds) {
+<code>function formatDuration (seconds) {
 
     if (seconds === 0) return "now";
     
@@ -157,8 +159,39 @@ function formatDuration (seconds) {
                 <section id="portfolio">
                     <h3>Portfolio</h3>
                     <ul class="portfolio__list">
-                        <li class="portfolio__item"></li>
-                        <li class="portfolio__item"></li>
+                        <li class="portfolio__item">
+                            <a href="https://nebelwerfert.github.io/practice/" target="_blank">
+                                <figure>
+                                    <img class="example-practice" src="img/example-practice.png" height="250"
+                                        alt="example practice img">
+                                    <figcaption>
+                                        <h3>Practice</h3>
+                                        <p>
+                                            A small training project
+                                        </p>
+                                        <p>
+                                            HTML/CSS
+                                        </p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="portfolio__item">
+                            <a href="" target="_blank">
+                                <figure>
+                                    <img src="img/example-practice.png" height="250" alt="">
+                                    <figcaption>
+                                        <h3>Test</h3>
+                                        <p>
+                                            Test
+                                        </p>
+                                        <p>
+                                            HTML/CSS/JS
+                                        </p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
                     </ul>
                 </section>
                 <section id="video-cv">
@@ -219,6 +252,7 @@ function formatDuration (seconds) {
             </div>
         </footer>
     </div>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
