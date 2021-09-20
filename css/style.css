@@ -271,6 +271,7 @@ main h3 {
 
 .video-cv-player {
     width: 100%;
+    border: none;
 }
 
 figcaption {
