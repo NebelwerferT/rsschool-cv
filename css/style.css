@@ -269,6 +269,10 @@ main h3 {
     transform: translateX(-50%);
 }
 
+.video-cv-player {
+    width: 100%;
+}
+
 figcaption {
     opacity: 0;
 }
@@ -452,6 +456,10 @@ footer {
         margin-bottom: 5px;
     }
 
+    .video-cv-player {
+        height: auto;
+    }
+
     .portfolio__item img {
         height: 200px;
     }
@@ -537,8 +545,8 @@ footer {
         height: 120px;
     }
 
-    video {
-        width: 220px;
+    .video-cv-player {
+        height: auto;
     }
 
     .code-pre {
