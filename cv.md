@@ -4,6 +4,7 @@
 - **Discord:** nebelwerfer
 - **Tel:** +79873757651
 - **E-mail:** NebelwerferT9@gmail.com
+- **GitHub:** [NebelwerferT](https://github.com/NebelwerferT)
 
 ### About myself:
 I want to learn FrontEnd Development
