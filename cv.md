@@ -7,7 +7,7 @@
 - **GitHub:** [NebelwerferT](https://github.com/NebelwerferT)
 
 ### About myself:
-I want to learn FrontEnd Development
+I'm a beginner front-end developer. Also, I am a student of the Faculty of Computer Science and Information Technology (CSIT) of the Saratov State University (SSU) named after Chernyshevsky. My specialty is systems analysis and automatic control (SAAC).
 
 ### Skills:
 - HTML
@@ -59,10 +59,16 @@ function formatDuration (seconds) {
 
 ### Education and courses:
 - Saratov State University, Faculty of Computer Science and Information Technologies, Department of System Analysis and Automatic Control, bachelor degree (2018 – 2022)
+- RSSCHOOL online course "Node.js Development" (NODEJS 2021 Q2)
 - JavaScript https://learn.javascript.ru/
 
 ### Work expirience:
-No commercial experience yet
+No commercial experience yet, but there are projects on my GitHub:
+
+- [Museum](https://rolling-scopes-school.github.io/nebelwerfert-JSFE2021Q3/museum-dom/)
+- [Art Quiz](https://nebelwerfert.github.io/art-quiz)
+- [Chritsmass tree](https://rolling-scopes-school.github.io/nebelwerfert-JSFE2021Q3/christmas-task2/)
+- [CV](https://nebelwerfert.github.io/rsschool-cv)
 
 ### Languages:
 - Russian
