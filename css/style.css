@@ -1,0 +1,178 @@
+:root {
+    --first-color: rgb(219, 219, 219);
+    --second-color: rgba(118, 82, 216, 0.479);
+    --third-color: rgba(118, 82, 216, 0.185);
+    --fourth-color: rgba(118, 82, 216, 0.664);
+    --fifth-color: rgba(118, 82, 216, 0.37);
+    --border-color: rgba(118, 82, 216, 0.384);
+    --heading-color: rgb(67, 47, 121);
+    --font-color: rgba(67, 47, 121, 0.781);
+    font-family: "Poppins", sans-serif;
+    color: var(--font-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    color: var(--heading-color);
+}
+
+ul {
+    list-style-type: none;
+}
+
+p, li {
+    font-size: 18px;
+}
+
+p {
+    line-height: 1.3em;
+}
+
+body {
+    background-color: var(--first-color);
+}
+
+.container {
+    flex-direction: column;
+    width: 1000px;
+    margin: 20px auto;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    background-color: var(--second-color);
+}
+
+.my-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.my-photo {
+    border-radius: 50%;
+    transform: scale(0.6);
+    border: 10px solid var(--third-color);
+}
+
+header h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+}
+
+.main-content, .aside-content {
+    padding: 0 20px;
+}
+
+main section {
+    margin: 30px 0;
+}
+
+main section > * {
+    padding: 0 10px;
+}
+
+main h3 {
+    font-size: 32px;
+
+    margin-bottom: 15px;
+}
+
+.skills-list__item {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px 15px 10px;
+    margin: 15px 0;
+    background-color: var(--third-color);
+    font-weight: bold;
+}
+
+.skills-list__item i {
+    margin-right: 10px;
+    font-size: 2em;
+}
+
+.skills-point-list {
+    display: flex;
+    margin-left: auto;
+}
+
+.skills-point-list__item {
+    width: 60px;
+    height: 15px;
+    transform: skew(-20deg);
+    margin-left: 20px;
+    background-color: var(--fourth-color);
+}
+
+.skills-point-list__item_light {
+    background-color: var(--fifth-color);
+}
+
+.code-pre {
+    background-color: var(--third-color);
+    margin: 0 10px;
+}
+
+.aside-content {
+    border-left: 1px solid var(--border-color);
+}
+
+.contacts-list__item, .education-list__item a {
+    display: flex;
+    align-items: center;
+}
+
+.aside-content li {
+    margin-bottom: 15px;
+}
+
+.aside-content i {
+    margin-right: 10px;
+}
+
+.education-list__item a {
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.education-list__item a:visited {
+    color:var(--font-color);
+}
+
+.education-list__item a:hover {
+    opacity: 0.7;
+    transition: all .5s;
+    transform: translateX(10px);
+}
+
+footer {
+    background-color: var(--second-color);
+    height: 80px;
+    color: white;
+    font-size: 2em;
+}
+
+.footer-content {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-content img {
+    height: 50px;
+    color: black;
+}
