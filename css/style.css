@@ -248,6 +248,8 @@ main h3 {
 
 .portfolio__list {
     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
     justify-content: space-between;
 }
 
@@ -296,6 +298,7 @@ figcaption {
     height: 100%;
     width: 100%;
     background-color: rgba(230, 223, 248, 0.822);
+    transition: all .5s;
 }
 
 footer {
